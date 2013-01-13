@@ -7,10 +7,10 @@ var d='';
 $(document).keypress(function(event){
   
 	var keycode = (event.keyCode ? event.keyCode : event.which);
-console.log(keycode);
+//console.log(keycode);
   
   var x= String.fromCharCode(keycode);
-  console.log(x);
+  //console.log(x);
   if(keycode != '13'){
     d+=x;
   }
